@@ -18,7 +18,7 @@ app.post("/api", async (req, res) => {
 })
 
 app.get("/", (req, res) => {
-    
+    res.send("Hello!")
 })
 
 app.listen(PORT, () => {
